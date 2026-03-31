@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { FaCartShopping } from 'react-icons/fa6';
 
 const Carts = ({ buy, setBuy }) => {
 
@@ -23,13 +24,22 @@ const Carts = ({ buy, setBuy }) => {
       {/* Items */}
       <div className='space-y-4'>
         {
-          buy.map((item) => (
+
+          buy.length === 0 ? 
+            <div className='h-[100px] flex items-center justify-center flex-col gap-4'>
+
+            
+            <span><FaCartShopping  size={100}/></span>
+            <span className='font-bold text-2xl'>Your cart is empty</span>
+            </div>
+          
+          :buy.map((item) => (
             <div key={item.id} className='flex items-center justify-between p-6 border rounded-2xl'>
 
               <div className='flex items-center gap-4'>
                 <h2 className="text-2xl font-bold mt-2 flex items-center gap-2">
               <span className="text-3xl">{item.icon}</span>
-              {item.name}
+              {}
             </h2>
                 <div>
                   <h2 className='font-semibold text-lg'>{item.name}</h2>
