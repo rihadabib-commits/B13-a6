@@ -19,7 +19,7 @@ const Footer2 = () => {
             Work smarter with our suite of powerful tools.
           </p>
         </div>
-
+      
         {/* Product */}
         <div>
           <h3 className="text-white font-medium mb-4">Product</h3>
