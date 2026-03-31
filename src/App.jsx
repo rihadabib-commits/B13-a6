@@ -9,6 +9,9 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Banner1 from './components/banner.1/Banner1';
 import Banner2 from './components/banner.2/Banner2';
+import Footer1 from './components/footer.1/Footer1';
+import Footer2 from './components/footer2/Footer2';
+
 
 // Fetch products from public/data.json
 const fetchProduct = async () => {
@@ -53,6 +56,8 @@ function App() {
         <ToastContainer />
         <Banner1 />
         <Banner2 />
+        <Footer1 />
+        <Footer2 />
     </>
   );
 }
