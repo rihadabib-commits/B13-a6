@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance in minutes.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Generator",
+    "description": "Build stunning personal portfolios with zero coding.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Custom domains", "Responsive design", "SEO optimized"],
+    "icon": "🌐"
+  },
+  {
+    "id": 3,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, ads, and content using AI tools.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["SEO content", "Multi-language", "Fast generation"],
+    "icon": "✍️"
+  },
+  {
+    "id": 4,
+    "name": "Design Template Pack",
+    "description": "Premium UI/UX templates for web and mobile apps.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Figma files", "Editable components", "Modern design"],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "AI Logo Maker",
+    "description": "Create unique logos instantly using AI.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["High-res export", "Custom branding", "Instant preview"],
+    "icon": "🧠"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Kit",
+    "description": "Ready-made templates for social media posts.",
+    "price": 12.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Instagram templates", "Facebook ads", "Canva support"],
+    "icon": "📱"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Tool",
+    "description": "Automate and manage email campaigns easily.",
+    "price": 11.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Automation", "Analytics", "Custom templates"],
+    "icon": "📧"
+  },
+  {
+    "id": 8,
+    "name": "Video Editor Pro",
+    "description": "Edit videos with AI-powered tools and effects.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["4K export", "AI effects", "Fast rendering"],
+    "icon": "🎬"
+  },
+  {
+    "id": 9,
+    "name": "Website Builder",
+    "description": "Drag-and-drop website builder for beginners.",
+    "price": 15.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Drag & drop", "Hosting included", "Mobile friendly"],
+    "icon": "🛠️"
+  },
+  {
+    "id": 10,
+    "name": "AI Chatbot Builder",
+    "description": "Create smart chatbots for websites and apps.",
+    "price": 18.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["No-code setup", "AI responses", "Integration ready"],
+    "icon": "🤖"
+  }
+]
