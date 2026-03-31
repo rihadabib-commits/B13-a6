@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoCartOutline } from "react-icons/io5";
 
 const Navbar = ({coin}) => {
   return (
@@ -28,10 +29,11 @@ const Navbar = ({coin}) => {
 
         {/* Cart */}
         <div className="indicator cursor-pointer">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
               d="M3 3h2l.4 2M7 13h10l4-8H5.4" />
-          </svg>
+          </svg> */}
+          <IoCartOutline />
           {/* <span className="badge badge-sm indicator-item">{coin}</span> */}
           <span className="badge badge-sm indicator-item">{coin.toFixed(2)}</span>
 
